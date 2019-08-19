@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <!-- Barcode Reader fragment -->
+
     <fragment
         android:id="@+id/barcode_fragment"
         android:name="info.androidhive.barcode.BarcodeReader"
@@ -24,6 +25,16 @@
         app:line_speed="6"
         app:line_width="4"
         app:square_height="200"
-        app:square_width="200" />
+        app:square_width="200" >
+
+    </info.androidhive.barcode.ScannerOverlay>
+
+    <EditText
+        android:id="@+id/barcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="test" />
 
 </RelativeLayout>

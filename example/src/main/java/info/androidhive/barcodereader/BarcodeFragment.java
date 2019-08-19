@@ -15,7 +15,7 @@ import java.util.List;
 
 import info.androidhive.barcode.BarcodeReader;
 
-public class BarcodeFragment extends Fragment implements BarcodeReader.BarcodeReaderListener {
+public class    BarcodeFragment extends Fragment implements BarcodeReader.BarcodeReaderListener {
     private static final String TAG = BarcodeFragment.class.getSimpleName();
 
     private BarcodeReader barcodeReader;
